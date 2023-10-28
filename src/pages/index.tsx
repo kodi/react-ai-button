@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { HiOutlineArrowPath, HiOutlineSparkles } from 'react-icons/hi2';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { gruvboxDark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-
+import GithubCorner from 'react-github-corner';
 
 type OpenAIResponse = { choices: { message: { content: string } }[] };
 
@@ -104,6 +104,7 @@ function Bookmark({ slug }) {
         <meta name="description" content="Generate your own react button!"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
+      <GithubCorner href="https://github.com/kodi/react-ai-button"/>
       <main
         className="min-h-screen bg-black justify-center bg-[url('/img/type_001.gif')] flex items-start bg-top bg-auto bg-no-repeat">
         <div className="container mx-auto pt-[250px]">

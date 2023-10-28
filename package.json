@@ -9,7 +9,7 @@
     "dev": "next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
-    "prod" : "next build && next export",
+    "prod": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "next": "^13.5.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-github-corner": "^2.5.0",
     "react-icons": "^4.11.0",
     "react-syntax-highlighter": "^15.5.0",
     "superjson": "^1.13.1",
